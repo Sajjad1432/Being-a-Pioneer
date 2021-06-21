@@ -1,0 +1,23 @@
+body::before{
+ display: block;
+ content: '';
+ height: 60px;
+
+}
+#map{
+ width: 100%;
+ height: 100%;
+ border-radius:10px ;
+}
+.bi-arrow-up-circle{
+ margin-right: 20px;
+ padding-bottom: 10px;
+}
+.footer{
+ height: 60px;
+}
+@media(min-width: 768px){
+ .news-input{
+  width: 50%;
+ }
+}
